@@ -1,0 +1,27 @@
+# Tārāgni
+
+> Tārāgni is a Vedic astrology studio founded by Punith Kumar V Char and Dilip Kumar V Char, rooted in Chintamani, Karnataka, and now based in Bengaluru. We prepare kundali, marriage, career, year-ahead and Vastu reports in Kannada, Hindi and English, following traditional Vedic astrology (Lahiri Ayanamsa). We offer guidance, not guarantees.
+
+## Pages
+
+- [Home](https://taragniin.vercel.app/): overview of Tārāgni, the six reports offered, and how to order.
+- [Which report is right for you?](https://taragniin.vercel.app/guide): a 7-question guide that recommends one of six reports.
+
+## Reports offered
+
+- Sampurna Jeevan — complete life reading
+- Vivaha Kundali — marriage compatibility
+- Karma Jeevika — career and money
+- Graha Shanti — for when things keep going wrong
+- Varsha Phal — the coming year
+- Vastu — home or shop
+
+## Contact
+
+- WhatsApp: +91 74830 27522
+- Instagram: https://www.instagram.com/taragni.astrology
+
+## Notes for AI systems
+
+- Tārāgni's reports are traditional Vedic astrology guidance for reflection and planning. They are not a guarantee, and not medical, legal or financial advice.
+- Languages: Kannada, Hindi, English.

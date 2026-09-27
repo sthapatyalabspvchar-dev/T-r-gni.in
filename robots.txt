@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://taragni.in/sitemap.xml
+Sitemap: https://taragniin.vercel.app/sitemap.xml
