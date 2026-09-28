@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Which Vedic Astrology Report Is Right for You? | Tārāgni</title>
+<meta name="description" content="Answer 7 short questions and find which Tārāgni Vedic astrology report fits you: kundali, marriage, career, year-ahead or Vastu. In Kannada, Hindi and English.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://taragniin.vercel.app/guide">
+<meta name="theme-color" content="#0B0B10">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tārāgni">
+<meta property="og:title" content="Which Tārāgni report is right for you?">
+<meta property="og:description" content="Answer 7 short questions and find which Tārāgni Vedic astrology report fits you: kundali, marriage, career, year-ahead or Vastu. In Kannada, Hindi and English.">
+<meta property="og:url" content="https://taragniin.vercel.app/guide">
+<meta property="og:image" content="https://taragniin.vercel.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Which Tārāgni report is right for you?">
+<meta name="twitter:description" content="Answer 7 short questions and find which Tārāgni Vedic astrology report fits you: kundali, marriage, career, year-ahead or Vastu. In Kannada, Hindi and English.">
+<meta name="twitter:image" content="https://taragniin.vercel.app/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap">
+<style>
+  /* Single dark look by choice: Tārāgni night sky with a fire glow. */
+  :root {
+    color-scheme: dark;
+    --bg: #0a0710;
+    --panel: #14101d;
+    --panel-2: #1b1628;
+    --line: #3a2f52;
+    --text: #f4efe6;
+    --muted: #b5abc4;
+    --gold: #d9b45a;
+    --saffron: #ff8a1f;
+    --mint: #52f2dc;
+    --fire: #ff5a1f;
+    --focus: #52f2dc;
+    --body: 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Kannada', system-ui, sans-serif;
+    --mark: 'Cinzel Decorative', 'Noto Sans', serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { min-height: 100%; }
+  body {
+    margin: 0;
+    padding-inline: 16px;
+    padding-block: 20px 48px;
+    background-color: var(--bg);
+    background-image:
+      radial-gradient(1.2px 1.2px at 12% 18%, #fff8 50%, transparent 51%),
+      radial-gradient(1px 1px at 78% 12%, #fff9 50%, transparent 51%),
+      radial-gradient(1.4px 1.4px at 44% 32%, #ffe9b8aa 50%, transparent 51%),
+      radial-gradient(1px 1px at 90% 44%, #fff7 50%, transparent 51%),
+      radial-gradient(1.2px 1.2px at 24% 62%, #fff8 50%, transparent 51%),
+      radial-gradient(1px 1px at 62% 74%, #ffe9b8aa 50%, transparent 51%),
+      radial-gradient(1.2px 1.2px at 6% 88%, #fff7 50%, transparent 51%),
+      radial-gradient(ellipse 90% 45% at 50% 108%, #ff5a1f55, transparent 70%),
+      radial-gradient(ellipse 60% 30% at 50% 100%, #d9b45a33, transparent 70%);
+    background-size: 260px 260px, 320px 320px, 380px 380px, 300px 300px, 340px 340px, 280px 280px, 360px 360px, 100% 100%, 100% 100%;
+    background-repeat: repeat, repeat, repeat, repeat, repeat, repeat, repeat, no-repeat, no-repeat;
+    background-attachment: scroll, scroll, scroll, scroll, scroll, scroll, scroll, fixed, fixed;
+    color: var(--text);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 640px; margin-inline: auto; display: flex; flex-direction: column; gap: 22px; }
+
+  header { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .wordmark { font-family: var(--mark); font-weight: 700; font-size: 15px; letter-spacing: .22em; color: var(--saffron); text-shadow: 0 0 14px #ff8a1f88; }
+  .langs { display: flex; gap: 6px; }
+  .langs button {
+    font: 600 14px/1 var(--body); color: var(--muted); background: transparent;
+    border: 1px solid var(--line); border-radius: 999px; padding: 9px 14px; min-height: 40px; cursor: pointer;
+  }
+  .langs button[aria-pressed="true"] { color: #0a0710; background: var(--gold); border-color: var(--gold); }
+  button:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+  h1 { margin: 0; font-size: clamp(28px, 7vw, 38px); line-height: 1.2; font-weight: 700; text-wrap: balance; }
+  .intro { margin: 10px 0 0; color: var(--muted); font-size: 17px; }
+  .k { color: var(--mint); font-weight: 700; text-shadow: 0 0 12px #52f2dc66; }
+  .b { color: var(--saffron); font-weight: 700; text-shadow: 0 0 12px #ff8a1f77; }
+
+  .card { background: linear-gradient(180deg, var(--panel-2), var(--panel)); border: 1px solid var(--line); border-radius: 18px; padding: 22px 18px; display: flex; flex-direction: column; gap: 18px; }
+  .progress { display: flex; gap: 5px; align-items: center; }
+  .progress i { flex: 1; height: 4px; border-radius: 2px; background: var(--line); }
+  .progress i.on { background: var(--gold); box-shadow: 0 0 8px #d9b45a88; }
+  .step { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0; }
+  h2 { margin: 0; font-size: clamp(22px, 5.5vw, 27px); line-height: 1.3; font-weight: 600; text-wrap: balance; }
+  h3 { margin: 0; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+
+  .opts { display: grid; gap: 10px; }
+  .opt {
+    text-align: start; font: 500 17px/1.4 var(--body); color: var(--text);
+    background: #ffffff08; border: 1px solid var(--line); border-radius: 12px;
+    padding: 15px 16px; min-height: 54px; cursor: pointer; transition: transform .15s, border-color .15s, background .15s;
+  }
+  .opt:hover { border-color: var(--gold); background: #d9b45a14; transform: translateY(-1px); }
+  .nav { display: flex; justify-content: space-between; }
+  .link { background: none; border: 0; color: var(--muted); font: 500 15px var(--body); cursor: pointer; padding: 10px 4px; min-height: 44px; text-decoration: underline; text-underline-offset: 3px; }
+
+  .badge { align-self: flex-start; font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: #0a0710; background: var(--mint); padding: 5px 11px; border-radius: 999px; }
+  .rname { margin: 0; font-size: clamp(30px, 8vw, 42px); line-height: 1.1; font-weight: 700; color: var(--gold); text-shadow: 0 0 22px #d9b45a55; }
+  .rsub { margin: -8px 0 0; font-size: 18px; font-weight: 600; color: var(--text); }
+  .rdesc { margin: 0; color: var(--text); font-size: 17px; }
+
+  .sec { border-top: 1px solid var(--line); padding-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+  .sec p { margin: 0; color: var(--muted); font-size: 16px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { font-size: 14px; color: var(--text); border: 1px solid var(--line); background: #ffffff0a; border-radius: 999px; padding: 6px 12px; }
+  ul.list { margin: 0; padding: 0; list-style: none; display: grid; gap: 9px; }
+  ul.list li { position: relative; padding-inline-start: 22px; color: var(--text); font-size: 16px; }
+  ul.list li::before { content: ""; position: absolute; inset-inline-start: 2px; top: .6em; width: 8px; height: 8px; border-radius: 50%; background: var(--saffron); box-shadow: 0 0 8px #ff8a1fbb; }
+  ol.steps { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; counter-reset: s; }
+  ol.steps li { counter-increment: s; position: relative; padding-inline-start: 38px; color: var(--text); font-size: 16px; }
+  ol.steps li::before { content: counter(s); position: absolute; inset-inline-start: 0; top: 0; width: 26px; height: 26px; border-radius: 50%; border: 1px solid var(--gold); color: var(--gold); font-size: 13px; font-weight: 700; display: grid; place-items: center; }
+  .also .nm { font-weight: 700; color: var(--saffron); }
+  .also .ds { color: var(--muted); font-size: 15px; }
+
+  .order { display: flex; flex-direction: column; gap: 12px; border-top: 1px solid var(--line); padding-top: 16px; }
+  label { font-size: 14px; color: var(--muted); }
+  input[type="text"] {
+    width: 100%; font: 500 17px var(--body); color: var(--text); background: #00000055;
+    border: 1px solid var(--line); border-radius: 10px; padding: 13px 14px; min-height: 50px;
+  }
+  .btns { display: flex; gap: 10px; flex-wrap: wrap; }
+  .cta {
+    flex: 1 1 220px; display: inline-flex; justify-content: center; align-items: center; text-align: center;
+    font: 700 17px var(--body); color: #14080a; text-decoration: none; min-height: 54px; padding: 12px 18px;
+    background: linear-gradient(135deg, #ffb347, var(--fire)); border-radius: 12px; border: 0; cursor: pointer;
+    box-shadow: 0 6px 24px #ff5a1f44; transition: transform .15s;
+  }
+  .cta:hover { transform: translateY(-1px); }
+  .ghost {
+    flex: 0 1 auto; font: 600 16px var(--body); color: var(--text); background: transparent;
+    border: 1px solid var(--line); border-radius: 12px; min-height: 54px; padding: 12px 18px; cursor: pointer;
+  }
+  .note { margin: 0; font-size: 14px; color: var(--muted); }
+
+  .site { border-top: 1px solid var(--line); padding-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .browser { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: #0d0916; }
+  .bar { display: flex; align-items: center; gap: 10px; padding: 9px 12px; background: #1b1628; border-bottom: 1px solid var(--line); }
+  .dots { display: flex; gap: 5px; }
+  .dots i { width: 8px; height: 8px; border-radius: 50%; background: #4a3f63; }
+  .url { flex: 1; min-width: 0; font-size: 12px; color: var(--muted); background: #00000055; border-radius: 6px; padding: 4px 10px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .shot {
+    padding: 26px 18px 22px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 8px;
+    background:
+      radial-gradient(1px 1px at 20% 30%, #fff9 50%, transparent 51%),
+      radial-gradient(1.2px 1.2px at 80% 22%, #ffe9b8bb 50%, transparent 51%),
+      radial-gradient(1px 1px at 65% 70%, #fff8 50%, transparent 51%),
+      radial-gradient(1px 1px at 12% 78%, #fff7 50%, transparent 51%),
+      radial-gradient(ellipse 80% 60% at 50% 120%, #ff5a1f66, transparent 70%),
+      #0a0710;
+  }
+  .shot .wm { font-family: var(--mark); font-weight: 700; font-size: 26px; letter-spacing: .14em; color: var(--saffron); text-shadow: 0 0 18px #ff8a1f99; }
+  .shot .tag { margin: 0; font-size: 14px; color: var(--gold); letter-spacing: .06em; }
+  .shot .quote { margin: 6px 0 0; font-size: 15px; color: var(--text); font-style: italic; max-width: 30ch; text-wrap: balance; }
+  .shot .secs { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 10px; }
+  .shot .secs span { font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; background: #ffffff08; }
+  footer { text-align: center; font-size: 13px; color: var(--muted); }
+
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Tārāgni","item":"https://taragniin.vercel.app/"},
+{"@type":"ListItem","position":2,"name":"Which report is right for you?","item":"https://taragniin.vercel.app/guide"}
+]}
+</script>
+<header>
+    <span class="wordmark">TĀRĀGNI</span>
+    <div class="langs" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">English</button>
+      <button type="button" data-lang="hi" aria-pressed="false" lang="hi">हिन्दी</button>
+      <button type="button" data-lang="kn" aria-pressed="false" lang="kn">ಕನ್ನಡ</button>
+    </div>
+  </header>
+
+  <div>
+    <h1 id="title"></h1>
+    <p class="intro" id="intro"></p>
+  </div>
+
+  <section class="card" id="card" aria-live="polite"></section>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+  // Placeholder: currently Dilip Kumar's number. Replace with the dedicated Tārāgni WhatsApp number (country code first, digits only).
+  var ORDER_WHATSAPP_NUMBER = '917483027522';
+
+  var lang = 'en';
+  var step = 0;
+  var picks = [];
+  var custName = '';
+
+  var UI = {
+    title: {
+      en: 'Which report is <span class="k">right</span> for you?',
+      hi: 'आपके लिए कौन सी रिपोर्ट <span class="k">सही</span> है?',
+      kn: 'ನಿಮಗೆ ಯಾವ ವರದಿ <span class="k">ಸೂಕ್ತ</span>?'
+    },
+    intro: {
+      en: 'Answer 7 short questions. <span class="b">Tārāgni</span> will show the report that fits you best, and explain it in detail.',
+      hi: '7 छोटे सवालों के जवाब दीजिए। <span class="b">ताराग्नि</span> बताएगा कि कौन सी रिपोर्ट आपके लिए सबसे ठीक है, और उसे विस्तार से समझाएगा।',
+      kn: '7 ಸಣ್ಣ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ. ನಿಮಗೆ ಹೆಚ್ಚು ಹೊಂದುವ ವರದಿಯನ್ನು <span class="b">ತಾರಾಗ್ನಿ</span> ತೋರಿಸಿ, ವಿವರವಾಗಿ ಹೇಳುತ್ತದೆ.'
+    },
+    q: { en: 'Question', hi: 'सवाल', kn: 'ಪ್ರಶ್ನೆ' },
+    of: { en: 'of', hi: '/', kn: '/' },
+    back: { en: 'Back', hi: 'पीछे', kn: 'ಹಿಂದೆ' },
+    best: { en: 'Best fit for you', hi: 'आपके लिए सबसे सही', kn: 'ನಿಮಗೆ ಹೆಚ್ಚು ಸೂಕ್ತ' },
+    told: { en: 'You told us', hi: 'आपने बताया', kn: 'ನೀವು ಹೇಳಿದ್ದು' },
+    inside: { en: 'What you will find inside', hi: 'रिपोर्ट में क्या मिलेगा', kn: 'ವರದಿಯಲ್ಲಿ ಏನಿರುತ್ತದೆ' },
+    bestFor: { en: 'Best for', hi: 'किसके लिए सही', kn: 'ಯಾರಿಗೆ ಸೂಕ್ತ' },
+    need: { en: 'What we will need from you', hi: 'हमें आपसे क्या चाहिए', kn: 'ನಿಮ್ಮಿಂದ ನಮಗೆ ಏನು ಬೇಕು' },
+    how: { en: 'How it works', hi: 'यह कैसे होता है', kn: 'ಇದು ಹೇಗೆ ನಡೆಯುತ್ತದೆ' },
+    steps: {
+      en: ['Message us on WhatsApp and send your details.', 'We ask for a 20% advance. Work starts after it is paid.', 'Before delivery, we ask for the balance.', 'Your finished report comes to you on WhatsApp.'],
+      hi: ['WhatsApp पर हमें संदेश भेजिए और अपनी जानकारी दीजिए।', 'हम 20% एडवांस माँगते हैं। भुगतान के बाद काम शुरू होता है।', 'रिपोर्ट भेजने से पहले बाकी रकम माँगी जाती है।', 'तैयार रिपोर्ट आपको WhatsApp पर मिलती है।'],
+      kn: ['WhatsApp ನಲ್ಲಿ ನಮಗೆ ಸಂದೇಶ ಕಳುಹಿಸಿ, ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಕೊಡಿ.', 'ನಾವು 20% ಮುಂಗಡ ಕೇಳುತ್ತೇವೆ. ಪಾವತಿಯ ನಂತರ ಕೆಲಸ ಶುರುವಾಗುತ್ತದೆ.', 'ವರದಿ ಕಳುಹಿಸುವ ಮೊದಲು ಉಳಿದ ಮೊತ್ತ ಕೇಳುತ್ತೇವೆ.', 'ಸಿದ್ಧವಾದ ವರದಿ ನಿಮಗೆ WhatsApp ನಲ್ಲಿ ಬರುತ್ತದೆ.']
+    },
+    disclaimer: {
+      en: 'A report gives guidance from your chart. It does not replace your own judgment, or advice from a doctor, lawyer or financial adviser.',
+      hi: 'रिपोर्ट आपकी कुंडली के आधार पर मार्गदर्शन देती है। यह आपके अपने निर्णय, या डॉक्टर, वकील या वित्तीय सलाहकार की सलाह की जगह नहीं लेती।',
+      kn: 'ವರದಿ ನಿಮ್ಮ ಕುಂಡಲಿಯ ಆಧಾರದ ಮೇಲೆ ಮಾರ್ಗದರ್ಶನ ನೀಡುತ್ತದೆ. ಇದು ನಿಮ್ಮ ಸ್ವಂತ ನಿರ್ಧಾರಕ್ಕೆ, ಅಥವಾ ವೈದ್ಯ, ವಕೀಲ, ಹಣಕಾಸು ಸಲಹೆಗಾರರ ಸಲಹೆಗೆ ಬದಲಿ ಅಲ್ಲ.'
+    },
+    siteH: { en: 'Visit our website', hi: 'हमारी वेबसाइट देखें', kn: 'ನಮ್ಮ ವೆಬ್‌ಸೈಟ್ ನೋಡಿ' },
+    siteTag: { en: 'The Fire of the Stars', hi: 'तारों की अग्नि', kn: 'ನಕ್ಷತ್ರಗಳ ಅಗ್ನಿ' },
+    siteQuote: {
+      en: '“Before the stars speak, choose your tongue”',
+      hi: '“तारों के बोलने से पहले, अपनी भाषा चुनिए”',
+      kn: '“ನಕ್ಷತ್ರಗಳು ಮಾತನಾಡುವ ಮೊದಲು, ನಿಮ್ಮ ಭಾಷೆ ಆರಿಸಿ”'
+    },
+    siteSecs: {
+      en: ['Why Tārāgni', 'Services', 'Membership', 'Order'],
+      hi: ['ताराग्नि क्यों', 'सेवाएँ', 'सदस्यता', 'ऑर्डर'],
+      kn: ['ತಾರಾಗ್ನಿ ಏಕೆ', 'ಸೇವೆಗಳು', 'ಸದಸ್ಯತ್ವ', 'ಆರ್ಡರ್']
+    },
+    siteCta: { en: 'Visit the Tārāgni website', hi: 'ताराग्नि वेबसाइट देखें', kn: 'ತಾರಾಗ್ನಿ ವೆಬ್‌ಸೈಟ್‌ಗೆ ಹೋಗಿ' },
+    siteNote: {
+      en: 'See all our services and the full order form.',
+      hi: 'हमारी सभी सेवाएँ और पूरा ऑर्डर फ़ॉर्म देखें।',
+      kn: 'ನಮ್ಮ ಎಲ್ಲಾ ಸೇವೆಗಳು ಮತ್ತು ಪೂರ್ಣ ಆರ್ಡರ್ ಫಾರ್ಮ್ ನೋಡಿ.'
+    },
+    also: { en: 'Also worth a look', hi: 'यह भी देख सकते हैं', kn: 'ಇದನ್ನೂ ನೋಡಬಹುದು' },
+    nameLbl: { en: 'Your name (optional)', hi: 'आपका नाम (ज़रूरी नहीं)', kn: 'ನಿಮ್ಮ ಹೆಸರು (ಐಚ್ಛಿಕ)' },
+    order: { en: 'Order on WhatsApp', hi: 'WhatsApp पर ऑर्डर करें', kn: 'WhatsApp ನಲ್ಲಿ ಆರ್ಡರ್ ಮಾಡಿ' },
+    copy: { en: 'Copy message', hi: 'संदेश कॉपी करें', kn: 'ಸಂದೇಶ ನಕಲಿಸಿ' },
+    copied: { en: 'Copied', hi: 'कॉपी हो गया', kn: 'ನಕಲಾಯಿತು' },
+    again: { en: 'Start again', hi: 'फिर से शुरू करें', kn: 'ಮತ್ತೆ ಪ್ರಾರಂಭಿಸಿ' },
+    privacy: {
+      en: 'You do not need to share birth details on this page. We will ask for them on WhatsApp.',
+      hi: 'इस पेज पर जन्म की जानकारी देने की ज़रूरत नहीं है। WhatsApp पर हम पूछ लेंगे।',
+      kn: 'ಈ ಪುಟದಲ್ಲಿ ಜನ್ಮ ವಿವರಗಳನ್ನು ಕೊಡಬೇಕಿಲ್ಲ. WhatsApp ನಲ್ಲಿ ನಾವು ಕೇಳುತ್ತೇವೆ.'
+    },
+    foot: {
+      en: 'Tārāgni · Vedic astrology studio · Bengaluru',
+      hi: 'ताराग्नि · वैदिक ज्योतिष स्टूडियो · बेंगलुरु',
+      kn: 'ತಾರಾಗ್ನಿ · ವೈದಿಕ ಜ್ಯೋತಿಷ್ಯ ಸ್ಟುಡಿಯೋ · ಬೆಂಗಳೂರು'
+    },
+    msg: {
+      en: function (r, n) { return 'Namaste Tārāgni. ' + (n ? 'My name is ' + n + '. ' : '') + 'I would like the ' + r + ' report. Please tell me what details you need.'; },
+      hi: function (r, n) { return 'नमस्ते ताराग्नि। ' + (n ? 'मेरा नाम ' + n + ' है। ' : '') + 'मुझे ' + r + ' रिपोर्ट चाहिए। कृपया बताइए कि आपको कौन सी जानकारी चाहिए।'; },
+      kn: function (r, n) { return 'ನಮಸ್ಕಾರ ತಾರಾಗ್ನಿ. ' + (n ? 'ನನ್ನ ಹೆಸರು ' + n + '. ' : '') + 'ನನಗೆ ' + r + ' ವರದಿ ಬೇಕು. ನಿಮಗೆ ಯಾವ ವಿವರಗಳು ಬೇಕು ಎಂದು ತಿಳಿಸಿ.'; }
+    }
+  };
+
+  var QUESTIONS = [
+    {
+      q: { en: 'What is on your mind the most?', hi: 'आपके मन में सबसे ज़्यादा क्या है?', kn: 'ನಿಮ್ಮ ಮನಸ್ಸಿನಲ್ಲಿ ಹೆಚ್ಚು ಇರುವುದು ಏನು?' },
+      opts: [
+        { t: { en: 'Marriage', hi: 'विवाह', kn: 'ಮದುವೆ' }, s: { vivaha: 3 } },
+        { t: { en: 'Work and money', hi: 'काम और पैसा', kn: 'ಕೆಲಸ ಮತ್ತು ಹಣ' }, s: { karma: 3 } },
+        { t: { en: 'My whole life', hi: 'मेरा पूरा जीवन', kn: 'ನನ್ನ ಇಡೀ ಜೀವನ' }, s: { sampurna: 3 } },
+        { t: { en: 'Things keep going wrong', hi: 'बार-बार रुकावटें आ रही हैं', kn: 'ಪದೇ ಪದೇ ಅಡೆತಡೆಗಳು ಬರುತ್ತಿವೆ' }, s: { graha: 3 } },
+        { t: { en: 'The coming year', hi: 'आने वाला साल', kn: 'ಮುಂದಿನ ವರ್ಷ' }, s: { varsha: 3 } },
+        { t: { en: 'My home or shop', hi: 'मेरा घर या दुकान', kn: 'ನನ್ನ ಮನೆ ಅಥವಾ ಅಂಗಡಿ' }, s: { vastu: 3 } }
+      ]
+    },
+    {
+      q: { en: 'What do you want from the report?', hi: 'आप रिपोर्ट से क्या चाहते हैं?', kn: 'ವರದಿಯಿಂದ ನಿಮಗೆ ಏನು ಬೇಕು?' },
+      opts: [
+        { t: { en: 'The big picture of my life', hi: 'मेरे जीवन की पूरी तस्वीर', kn: 'ನನ್ನ ಜೀವನದ ಪೂರ್ಣ ಚಿತ್ರ' }, s: { sampurna: 2 } },
+        { t: { en: 'Which times ahead are good or hard', hi: 'आगे कौन सा समय अच्छा या कठिन है', kn: 'ಮುಂದೆ ಯಾವ ಸಮಯ ಒಳ್ಳೆಯದು ಅಥವಾ ಕಠಿಣ' }, s: { varsha: 2, karma: 1 } },
+        { t: { en: 'Simple things I can do to improve', hi: 'सुधार के लिए किए जा सकने वाले सरल उपाय', kn: 'ಸುಧಾರಣೆಗೆ ಮಾಡಬಹುದಾದ ಸರಳ ಉಪಾಯಗಳು' }, s: { graha: 2, vastu: 1 } },
+        { t: { en: 'Help with a decision I must make soon', hi: 'जल्द लेने वाले किसी फ़ैसले में मदद', kn: 'ಶೀಘ್ರದಲ್ಲಿ ತೆಗೆದುಕೊಳ್ಳಬೇಕಾದ ನಿರ್ಧಾರಕ್ಕೆ ಸಹಾಯ' }, s: { varsha: 1, karma: 1, vivaha: 1 } }
+      ]
+    },
+    {
+      q: { en: 'Who is this for?', hi: 'यह किसके लिए है?', kn: 'ಇದು ಯಾರಿಗಾಗಿ?' },
+      opts: [
+        { t: { en: 'Only me', hi: 'सिर्फ़ मेरे लिए', kn: 'ನನಗೆ ಮಾತ್ರ' }, s: {} },
+        { t: { en: 'Me and my partner', hi: 'मेरे और मेरे साथी के लिए', kn: 'ನನಗೆ ಮತ್ತು ನನ್ನ ಸಂಗಾತಿಗೆ' }, s: { vivaha: 2 } },
+        { t: { en: 'A family member', hi: 'परिवार के किसी सदस्य के लिए', kn: 'ಕುಟುಂಬದ ಸದಸ್ಯರಿಗೆ' }, s: { sampurna: 1 } }
+      ]
+    },
+    {
+      q: { en: 'How long has this been on your mind?', hi: 'यह बात कब से आपके मन में है?', kn: 'ಇದು ಎಷ್ಟು ಸಮಯದಿಂದ ನಿಮ್ಮ ಮನಸ್ಸಿನಲ್ಲಿದೆ?' },
+      opts: [
+        { t: { en: 'It just started', hi: 'अभी शुरू हुई है', kn: 'ಈಗಷ್ಟೇ ಶುರುವ
